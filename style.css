@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  background: rgb(204,65,201);
+  background: linear-gradient(90deg, rgba(204,65,201,1) 0%, rgba(121,9,103,1) 0%, rgba(25,139,162,1) 100%);
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.container h4 {
+  margin: 0 0 6px 0;
+}
+
+.right {
+ float: right;
+}
+
+.personPhoto {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.personName {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+
+.favFoods {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 17px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+[contenteditable] {
+  outline: 1px solid;
+  margin-left: 250px;
+  margin-right: 5px;
+}
+
+.footer {
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
